@@ -2,9 +2,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    background: linear-gradient(to right, #ff0080, #ff8c00, #ffff00, #00ff00, #00ffff, #0000ff, #4b0082);
-      background-size: 200% 200%;
-      animation: gradient 3s ease infinite;
+    background-color: white;
     
 }
 #body{
@@ -33,3 +31,25 @@ table {
   tr:hover {
     background-color: #f1f1f1;
   }
+
+  #RussianWord{
+    margin-top: 350px;
+    margin-left: 450px;
+    border-radius: 12px;
+    height: 35px;
+    width: 250px;
+  }
+  #EnglishWord{
+    margin-top: 350px;
+    margin-left: 450px;
+    border-radius: 12px;
+    height: 35px;
+    width: 250px;
+  }
+  #Translate{
+    margin-top: 350px;
+    margin-left: 450px;
+    border-radius: 12px;
+  }
+  
+  
