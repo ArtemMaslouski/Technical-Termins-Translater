@@ -32,6 +32,20 @@ app.get("/Russian", async function (request, response) {
   }
 });
 
+app.get("/English", async function (request, response) {
+  let value = request.query.EnglishWord;
+  try {
+    let data = await pool.query(
+      `SELECT * FROM termins WHERE englishtermin = $1`,
+      [value]
+    );
+    response.send(data.rows);
+  } catch (err) {
+    console.log(err);
+    response.sendStatus(500);
+  }
+});
+
 app.listen(3000, function () {
   console.log("Server starts his work on 3000 port");
 });
