@@ -20,9 +20,11 @@ app.get("/content", async function (request, response) {
 app.get("/Russian", async function (request, response) {
   let value = request.query.RussianWord;
   try {
-    let data = pool.query(`SELECT * FROM termins WHERE russiantermin LIKE $1`, [
-      value,
-    ]);
+    let data = await pool.query(
+      `SELECT * FROM termins WHERE russiantermin = $1`,
+      [value]
+    );
+    debugger;
     response.send(data.rows);
   } catch (err) {
     console.log(err);
