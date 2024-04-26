@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(#20B2AA,#008080);
+    background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+    
+}
+#header{ 
+    background: linear-gradient(#20B2AA,#008080);
+}
+#header h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px 30px 30px 10px;
+    clear: both;
+}
+#nav {
+    background: linear-gradient(#20B2AA,#008080);
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#nav li {
+    float: left;
+    list-style: none;   
+}
+#nav a {
+    display: block;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
+}
+#nav li:last-child a {
+    border-right: none; 
+}
+#nav a:hover {
+    font-weight: bold;
+}
+#nav:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }s
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+
+#RussianHeader{
+    background-color: red;
+  }
+  #EnglishHeader{
+    background-color: red;
+  }
+  #ExplonationHeader{
+    background-color: red;
+  }
+  #showTable{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }

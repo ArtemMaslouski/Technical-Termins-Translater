@@ -7,18 +7,31 @@
     <title>Словарь технических терминов</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="/">Главная</a></li>
-            <li><a href="content.html">Содержание словаря </a></li>
-            
-        </ul>
-    </nav>
-    
-    <input type="text" id="RussianWord" placeholder="Введите слово на русском">
-    <input type="text" id="EnglishWord" placeholder="Введите слово на английском">
-    <button id="Translate">Перевести</button>
-    <textarea name="explonation" id="Explonation" cols="60" rows="10" placeholder="Смысловое значение термина"></textarea>
+    <div id="header">
+        <h1>Переводчик Технических терминов</h1>
+        <div id="nav">
+            <ul>
+                <li><a href="content.html">Перейти к словарю </a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="body">
+        <div id="inputFields">
+            <input type="text" id="RussianWord" placeholder="Введите слово на русском">
+            <input type="text" id="EnglishWord" placeholder="Введите слово на английском">
+        </div>
+        <div id="explonationFields">
+            <textarea name="explonation" id="Explonation" cols="60" rows="5" placeholder="Смысловое значение термина"></textarea>
+        </div>
+        
+        <div id="button">
+            <button id="Translate">Перевести</button>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Contacts: masloartem20@gmail.com</p>
+        <p>Telegram: https://t.me/mslv_sky</p>
+    </div>
     <script src="client.js"></script>
 
 </body>
