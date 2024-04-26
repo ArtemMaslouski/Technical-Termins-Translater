@@ -82,12 +82,17 @@ body{
   height: 20px;
   width: 200px;
 }
+#RussianWord:hover{
+  border: 2px solid black;
+}
 #EnglishWord{
   border-radius: 12px;
   height: 20px;
   width: 200px;
   margin-left: 150px;
- 
+}
+#EnglishWord:hover{
+  border: 2px solid black;
 }
 #Explonation{
   border-radius: 12px;
@@ -103,11 +108,22 @@ body{
 }
 #button{
   margin-top: 25px;
-  margin-left: 45%;
+  margin-left: 38%;
 }
 #Translate{
   border-radius: 12px;
-  width: 100px;
+  width: 120px;
   height: 25px;
+}
+#Translate:hover{
+  border: 3px solid black
+}
+#Add{
+  border-radius: 12px;
+  width: 120px;
+  height: 25px;
+}
+#Add:hover{
+  border:3px solid black
 }
   
