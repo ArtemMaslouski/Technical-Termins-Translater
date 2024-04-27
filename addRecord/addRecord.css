@@ -2,57 +2,45 @@ body{
     background: linear-gradient(#20B2AA,#008080);
     background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-    
 }
-#body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-
 #nav {
-  background: linear-gradient(#20B2AA,#008080);
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-}
-#nav li {
-  float: left;
-  list-style: none;   
-}
-#nav a {
-  display: block;
-  color: black;
-  padding: 10px 25px;
-  text-decoration: none;
-  border-right: 1px solid #ccc;
-}
-#nav li:last-child a {
-  border-right: none; 
-}
-#nav a:hover {
-  font-weight: bold;
-}
-#nav:after {
-  content: " ";
-  display: table;
-  clear: both;
-}
-#header{ 
-  background: linear-gradient(#20B2AA,#008080);
-}
-#header h1 {
-  display: flex;
-  justify-content: center;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 30px 30px 30px 10px;
-  clear: both;
-}
-  #footer{
+    background: linear-gradient(#20B2AA,#008080);
     border-top: 1px solid #ccc;
-    font-size: .8em;    
-    text-align: center;
-    padding: 10px 10px 30px 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  #nav li {
+    float: left;
+    list-style: none;   
+  }
+  #nav a {
+    display: block;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
+  }
+  #nav li:last-child a {
+    border-right: none; 
+  }
+  #nav a:hover {
+    font-weight: bold;
+  }
+  #nav:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  #header{ 
+    background: linear-gradient(#20B2AA,#008080);
+  }
+  #header h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px 30px 30px 10px;
+    clear: both;
   }
   #body{
     background: linear-gradient(#20B2AA,#008080);
@@ -110,20 +98,17 @@ body{
   margin-top: 25px;
   margin-left: 43%;
 }
-#Translate{
-  border-radius: 12px;
-  width: 120px;
-  height: 25px;
-}
-#Translate:hover{
-  border: 3px solid black
-}
 #Add{
   border-radius: 12px;
   width: 120px;
   height: 25px;
 }
 #Add:hover{
-  border:3px solid black
+  border: 3px solid black
 }
-  
+#footer{
+    border-top: 1px solid #ccc;
+    font-size: .8em;    
+    text-align: center;
+    padding: 10px 10px 30px 10px;
+  }
